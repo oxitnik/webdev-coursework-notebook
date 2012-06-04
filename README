@@ -1,7 +1,7 @@
 Simple notebook web-application for my coursework project for web programming course.
 
-Using:
-    bottle.py + beaker  for backend
+Uses:
+    bottle.py + beaker for backend
     Backbone.js + Twitter Bootstrap for frontend
 
 P.S.:It is my first experience with Bottle.py and Backbone, so it may contain a lot of bad code.
