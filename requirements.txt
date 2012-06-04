@@ -1,0 +1,6 @@
+Beaker==1.6.3
+SQLAlchemy==0.7.7
+argparse==1.2.1
+bottle==0.10.9
+bottle-sqlalchemy==0.3
+wsgiref==0.1.2

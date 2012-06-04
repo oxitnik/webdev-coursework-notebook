@@ -1,0 +1,33 @@
+                <div class="view-group">
+                    <div class="btn-group pull-left note-menu">
+                      <button class="btn dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                            <a class="delete-note" href="#/notebook/<%= notebook_id %>">
+                                Удалить
+                            </a>
+                        </li>
+                        <li>
+                            <a class="edit-note" href="#/notebook/<%= notebook_id %>">
+                                Изменить
+                            </a>
+                        </li>
+                      </ul>
+                    </div>                    
+                    <h4 class="message-title"><%= title %></h4>            
+                    <p class="message-text"><%= text %></p>
+                </div>
+                <!-- Edit part -->
+                <div class="form-inline edit-group">
+                    <input type="text"class="edit-title span12" value="<%= title %>">
+                    <textarea class="edit-text span12"><%= text %></textarea>
+                    <button class= "btn save-note"><i class="icon-ok"> </i>
+                        Сохранить
+                    </button>  
+                    <button class= "btn cancel-edit"><i class="icon-remove"> </i>
+                        Отменить
+                    </button>                     
+                </div>              
+            <!-- </div> -->

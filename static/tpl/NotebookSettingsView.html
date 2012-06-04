@@ -1,0 +1,23 @@
+  <!-- <div class="modal" id="notebook-settings" style="display:none;"> -->
+    <div class="modal-header">
+      <button class="close" data-dismiss="modal">×</button>
+      <h3>Настройки блокнота</h3>
+    </div>
+    <div class="modal-body">
+      <div class="form-inline">
+         <label class="control-label" for="edit-notebook-name">Имя блокнота</label>
+        <input type="text" id="edit-notebook-name" class="input-large" value="<%- name %>">
+        <button id="update-notebook" class="btn add-on">OK</button>      
+      </div>
+     <% if(!deflt) { %>
+      </br>
+      <div class="form-vertical">
+        <button id="delete-notebook" class="btn btn-danger">Удалить блокнот</button>
+      </div>
+      <% } %>
+    </div>
+   <!--  <div class="modal-footer">
+      <a href="#" class="btn">Close</a>
+      <a href="#" class="btn btn-primary">Save changes</a>
+    </div> -->
+ <!--  </div> -->

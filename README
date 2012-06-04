@@ -1,0 +1,18 @@
+Simple notebook web-application for my coursework project for web programming course.
+
+Using:
+    bottle.py + beaker  for backend
+    Backbone.js + Twitter Bootstrap for frontend
+
+P.S.:It is my first experience with Bottle.py and Backbone, so it may contain a lot of bad code.
+
+Api reference:
+    GET /api/notebook  - list of notebooks
+    POST /api/notebook - new notebook
+    PUT /api/notebook/:id - update notebook :id
+    DELETE /api/notebook/:id - delete notebook :id
+
+    GET /api/notebook/:id - notes of notebook :id
+    POST /api/note - new note
+    PUT /api/note/:id - update note :id
+    DELETE /api/note/:id - delete note :id

@@ -1,0 +1,70 @@
+body {
+    padding-top: 60px;
+}       
+#tools {
+    background-color: #DDD;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-bottom: 5px;
+}
+
+.note {
+    margin-bottom: 10px;
+}
+
+#nav-sidebar1.new-notebook{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#notes .note .edit-group{
+    display: none;
+}
+
+#notes .note .view-group{
+    display: block;
+}
+
+#notes .note.editing .edit-group{
+    display: block;
+}
+
+#notes .note.editing .view-group{
+    display: none;
+}
+
+.note-menu{
+    margin-right: 8px;
+}
+
+
+
+#alert_signin
+{
+    display: none;
+}
+
+#alert_signin.alert-error
+{
+    display: block;
+}
+
+#alert_signin.alert-success
+{
+    display: block;
+}
+
+#alert_signup
+{
+    display: none;
+}
+
+#alert_signup.alert-error
+{
+    display: block;
+}
+
+#alert_signup.alert-success
+{
+    display: block;
+}
